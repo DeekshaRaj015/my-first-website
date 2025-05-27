@@ -21,5 +21,13 @@ body {
 .logo span {
     color: #252447;
     font-style: italic;
-    font-family:'Liesel';
+}
+
+.shop-btn, .about-btn, .guide-btn, .find-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    color: #252447;
+    text-decoration: none;
+    border-radius: 5px;
 }
