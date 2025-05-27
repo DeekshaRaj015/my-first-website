@@ -1,4 +1,6 @@
-.header{
+header {
     background-attachment: fixed;
     background: url('image.jpg');
+    background-size: cover;
+    padding: 40px 20px;
 }
