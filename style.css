@@ -51,5 +51,16 @@ body {
 .signature-range {
     display: flex;
     justify-content: space-between;
-    
+    align-items: stretch;
+    padding: 60px 40px;
+    flex-wrap: wrap;
+
+}
+
+.signature-products{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    flex: 1;
+    max-width: 600px;
 }
