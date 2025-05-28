@@ -64,3 +64,14 @@ body {
     flex: 1;
     max-width: 600px;
 }
+
+.product-item img {
+    width: 40px;
+    height: 50px;
+    border-radius: 6px;
+    display: block;
+}
+
+.product-item:hover img {
+    backdrop-filter: #252447;
+}
