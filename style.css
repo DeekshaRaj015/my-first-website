@@ -2,7 +2,8 @@ header {
     background-attachment: fixed;
     background: url('image.jpg');
     background-size: cover;
-    padding: 40px 20px;
+    padding: 10px 5px;
+    
 }
 
 body {
@@ -10,12 +11,17 @@ body {
     font-family: 'Inter', sans-serif;
     background: #f9f9f9;
     color: #1f1f1f;
+    display:contents;
+    background: url('image.jpg');
+    box-sizing: border-box;
 }
 
 .logo {
     font-family: 'Playfair Display', serif;
     font-size: 2.5rem;
     color:#252447;
+    margin-top: 50px;
+   
 }
 
 .logo span {
@@ -30,4 +36,14 @@ body {
     color: #252447;
     text-decoration: none;
     border-radius: 5px;
+    justify-content: center;
+}
+.shop-btn:hover, .about-btn:hover, .guide-btn:hover, .find-btn:hover {
+    background:#252447;
+    color: #f9f9f9;
+}
+
+.tagline {
+    font-size:0.9rem;
+    margin-top:10px;
 }
