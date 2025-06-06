@@ -109,3 +109,23 @@ header {
 .hero p{
 
 }
+
+.stories-grid {
+    width: 100vw;
+    height: 100vh;
+   overflow: hidden;
+}
+
+footer{
+    background-image: url(footerbg.png);
+     background-size: cover;
+  background-position: center;
+  padding: 20px 0;
+}
+
+.footer-icon {
+  size: auto;
+  width: 30px;
+  height: auto;
+}
+ 
