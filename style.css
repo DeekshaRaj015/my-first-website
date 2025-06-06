@@ -82,3 +82,12 @@ body {
     flex-direction: column;
     justify-content: center;
 }
+
+.default-img:hover + .hover-img {
+  opacity: 1;
+}
+
+.default-img:hover {
+  opacity: 0;
+}
+    

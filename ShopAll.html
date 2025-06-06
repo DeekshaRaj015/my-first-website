@@ -4,6 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+       .image-wrapper {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.hover-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.image-wrapper:hover .hover-img {
+  opacity: 1;
+}
+
+.image-wrapper:hover .default-img {
+  opacity: 0;
+}
+    </style>
 </head>
 <body>
     <header>
@@ -22,8 +53,10 @@
 
     <div class="product-grid">
         <div class="product-card">
-            <image class="default-img" src="candles.png" alt="Candles"></image>
-            <image class="hover-img" src="H-candles.png" alt="Candles"></image>
+             <div class="image-wrapper">
+                <img class="default-img" src="candles.png" alt="Candles">
+                <img class="hover-img" src="H-candles.png" alt="Candles">
+            </div>
             <h3>Signature Range Candles</h3>
             <button>Add to cart $29.95</button>
         </div>
