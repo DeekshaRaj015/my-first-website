@@ -3,6 +3,7 @@ header {
     background: url('image.jpg');
     background-size: cover;
     padding: 10px 5px;
+    width: 100%;
 }
 
 body {
@@ -16,17 +17,13 @@ body {
 }
 
 .logo {
-    font-family: 'Playfair Display', serif;
-    font-size: 2.5rem;
-    color:#252447;
-    margin-top: 50px;
-   
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    display: block;
+
 }
 
-.logo span {
-    color: #252447;
-    font-style: italic;
-}
 
 .shop-btn, .about-btn, .guide-btn, .find-btn {
     display: inline-block;
@@ -88,4 +85,23 @@ header {
     position: sticky;
     top: 0;
     z-index: 100;
+}
+
+.hero {
+    background-image: url(hero-background.png);
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #f9f9f9;
+  padding: 100px 20px;
+  margin-bottom: 60px;
+}
+
+.hero h2{
+  
+}
+
+.hero p{
+
 }
