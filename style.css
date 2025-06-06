@@ -19,10 +19,16 @@ body {
 .logo {
     width: 100vw;
     height: 100vh;
-    object-fit: cover;
-    display: block;
-
+   overflow: hidden;
 }
+
+.logo img {
+    width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display:block;
+}
+
 
 
 .shop-btn, .about-btn, .guide-btn, .find-btn {
@@ -39,17 +45,13 @@ body {
     color: #f9f9f9;
 }
 
-.tagline {
-    font-size:0.9rem;
-    margin-top:10px;
-}
+
 
 .signature-range {
     display: flex;
-    justify-content: space-between;
-    align-items: stretch;
+    flex-wrap:wrap;
+    gap:40px;
     padding: 60px 40px;
-    flex-wrap: wrap;
 
 }
 
@@ -57,15 +59,17 @@ body {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 20px;
-    flex: 1;
+    flex: 1 1 300px;
     max-width: 500px;
+    
 }
 
 .product-item img {
-    width: 40px;
-    height: 50px;
+    width:100%;
+    object-fit: cover;
     border-radius: 6px;
     display: block;
+    aspect-ratio: 3px / 4px;
 }
 
 .signature-text {
