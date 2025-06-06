@@ -3,7 +3,6 @@ header {
     background: url('image.jpg');
     background-size: cover;
     padding: 10px 5px;
-    
 }
 
 body {
@@ -83,11 +82,10 @@ body {
     justify-content: center;
 }
 
-.default-img:hover + .hover-img {
-  opacity: 1;
+header {
+    background-color: white;
+    box-shadow: #252447;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
-
-.default-img:hover {
-  opacity: 0;
-}
-    
