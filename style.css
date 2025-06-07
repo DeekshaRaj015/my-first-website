@@ -168,7 +168,7 @@ button{
   max-width: 50%;
 }
 
-/* RIGHT: Scrollable Images */
+
 .product-images {
   flex: 1;
   display: flex;
@@ -185,7 +185,7 @@ button{
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Dropdown Styling */
+
 .dropdown {
   margin-bottom: 20px;
 }
@@ -202,7 +202,14 @@ button{
   list-style-type: disc;
 }
 
-/* Custom Scent Buttons */
+.scent-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+
 .scent-group {
   margin-bottom: 1.5rem;
 }
@@ -214,17 +221,17 @@ button{
 .scent-group button {
   margin: 0.25rem;
   padding: 8px 12px;
-  background-color: #f8f8f8;
-  border: 1px solid #ccc;
   border-radius: 6px;
   cursor: pointer;
   transition: 0.2s;
 }
 
-.scent-group button:hover {
-  background-color: #f0e5ff;
+.scent-category button.selected {
+  background-color: #fddede;
+  color: #000;
+  font-weight: bold;
+  border: 2px solid #f98080;
 }
-
 
 
 footer{
