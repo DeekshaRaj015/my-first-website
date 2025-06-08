@@ -159,12 +159,9 @@ header {
 
 .product-grid{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
-    gap:30px;
-    margin-top: 30px;
-    background-color: #f9f9f9;
-    width: auto;
-    height: auto;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 30px;
+    padding: 40px;
 }
 
 .product-card{
@@ -224,6 +221,19 @@ button{
   object-fit: cover;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+@media (max-width: 900px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 
 
 .dropdown {
