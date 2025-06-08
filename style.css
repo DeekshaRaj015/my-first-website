@@ -29,9 +29,16 @@ body {
   display:block;
 }
 
+nav{
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    gap: 10px;
+    padding: 10px 5px;
+    height: 9px;
+}
 
-
-.shop-btn, .about-btn, .guide-btn, .find-btn {
+.shop-btn, .about-btn, .guide-btn, .find-btn, .home-icon, .cart-icon {
     display: inline-block;
     margin-top: 15px;
     padding: 10px 20px;
@@ -39,12 +46,28 @@ body {
     text-decoration: none;
     border-radius: 5px;
     justify-content: center;
+    position: relative;
 }
+
+.nav-center {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex: 1;
+}
+
 .shop-btn:hover, .about-btn:hover, .guide-btn:hover, .find-btn:hover {
     background:#252447;
     color: #f9f9f9;
 }
 
+.home-icon img,
+.cart-icon img {
+  height: 20px;
+  vertical-align: middle;
+  padding: 1%;
+
+}
 
 
 .signature-range {
