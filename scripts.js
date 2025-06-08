@@ -76,4 +76,15 @@ window.addEventListener('DOMContentLoaded', () => {
   }
 });
 
+  document.addEventListener("DOMContentLoaded", function () {
+    const scentButtons = document.querySelectorAll(".scent-category button");
+
+    scentButtons.forEach(button => {
+      button.addEventListener("click", () => {
+        button.classList.toggle("selected");
+      });
+    });
+  });
+
+
 
