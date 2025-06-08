@@ -461,6 +461,7 @@ form input {
 
 h1, h2, h3, h4, button {
   font-family:'Noto Serif', serif;
+  border: #252447 solid 2px;
 }
 
 .recommendation {
@@ -474,4 +475,35 @@ h1, h2, h3, h4, button {
   width: 200px; 
   height: auto;
   border-radius: 8px;
+}
+
+details{
+    border-top: 1px solid #252447;
+    color: #252447;
+    padding: 10px 0px;
+   border-radius: 8px;
+}
+details[open] summary {
+  border-bottom: 1px solid#252447;
+  color: #252447;
+  padding: 10px 0px;
+   border-radius: 8px;
+}
+
+details ul {
+  margin-top: 10px;
+  padding-left: 20px;
+  color: #252447;
+ border: 1px solid #252447;
+  border-radius: 8px;
+}
+
+.story{
+    color: #f9f9f9;
+    background-image: url(storybg.png);
+    width: 650px;
+    height: 250px;
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+    border-radius: 8px;
 }
