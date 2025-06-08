@@ -348,7 +348,7 @@ footer{
   padding-top: 10px;
 }
 
-.checkout-form {
+.checkout-form, .brand-logo img {
   flex: 2;
   min-width: 300px;
 }
