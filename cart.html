@@ -21,10 +21,60 @@
         <a href="cart.html" class="cart-icon"><img src="cart.png" alt="cart icon"></a>
     </nav>
     </header>
-    <div class="cart">
-  <h3>Cart</h3>
-  <ul id="cart-items"></ul>
-  <p>Total: $<span id="cart-total">0.00</span></p>
-</div>
+    <main class="checkout-container">
+    <section class="order-summary">
+      <img src="product-image.png" alt="Product preview" />
+      <div class="summary-details">
+        <div class="item-name">
+            <p><strong></strong></p>
+        </div>
+        <div class="item-price">
+            <p></p>
+        </div>
+        <p class="total">Total<br><strong></strong></p>
+      </div>
+    </section>
+
+    <section class="checkout-form">
+      <img class="brand-logo" src="image.jpg">
+
+      <div class="form-section">
+        <h2>Delivery</h2>
+        <button class="pickup-btn">Pickup in store</button>
+
+        <form>
+          <input type="text" placeholder="Country/Region" />
+          <div class="name-fields">
+            <input type="text" placeholder="First name" />
+            <input type="text" placeholder="Last name" />
+          </div>
+          <input type="text" placeholder="Address" />
+          <input type="text" placeholder="Unit number" />
+          <div class="address-fields">
+            <input type="text" placeholder="City" />
+            <input type="text" placeholder="State" />
+            <input type="text" placeholder="Postcode" />
+          </div>
+          <input type="text" placeholder="Phone number" />
+        </form>
+      </div>
+
+      <div class="form-section">
+        <h2>Payment</h2>
+        <div class="payment-toggle">
+          <button>Credit card</button>
+          <button>Debit card</button>
+        </div>
+        <form>
+          <input type="text" placeholder="Card number" />
+          <div class="card-fields">
+            <input type="text" placeholder="Expiration date" />
+            <input type="text" placeholder="Security code" />
+          </div>
+        </form>
+        <button class="pay-btn">Pay now</button>
+      </div>
+    </section>
+  </main>
 </body>
 </html>

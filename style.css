@@ -317,3 +317,90 @@ footer{
   height: auto;
 }
  
+.checkout-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px 20px;
+}
+
+.order-summary {
+  flex: 1;
+  max-width: 300px;
+  background: #252447;
+  padding: 20px;
+  margin-right: 40px;
+  text-align: center;
+  border-radius: 8px;
+  color: #f9f9f9;
+}
+
+.order-summary img {
+  max-width: 100%;
+}
+
+.summary-details p {
+  margin: 10px 0;
+}
+
+.total {
+  font-size: 1.1em;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+}
+
+.checkout-form {
+  flex: 2;
+  min-width: 300px;
+}
+
+.form-section {
+  background: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+
+form input {
+  width: 100%;
+  margin: 6px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.name-fields,
+.address-fields,
+.card-fields {
+  display: flex;
+  gap: 10px;
+}
+
+.name-fields input,
+.address-fields input,
+.card-fields input {
+  flex: 1;
+}
+
+.payment-toggle {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.payment-toggle button {
+  flex: 1;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.pay-btn {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background: #252447;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+}
