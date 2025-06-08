@@ -222,6 +222,18 @@ button{
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+a {
+  text-decoration: none; 
+  font-family: 'Noto Serif', serif;
+}
+
+.item-name, .item-price{
+    color: #252447;
+    font-family:'Noto Serif', serif;
+    padding: 5px 20px;
+    margin: 0;
+}
+
 @media (max-width: 900px) {
   .product-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -430,3 +442,23 @@ form input {
   color: white;
 }
 
+.scent-category button,
+.payment-toggle button {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.scent-category button.active,
+.payment-toggle button.active {
+  background-color: #252447;
+  color: #fff;
+  border-color: #252447;
+}
+
+h1, h2, h3, h4, button {
+  font-family:'Noto Serif', serif;
+}
